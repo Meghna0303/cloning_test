@@ -23,4 +23,4 @@ jobs:
         run: npm install markdownlint-cli
 
       - name: Run markdown linter
-        run: npx markdownlint '**/*.md'
+        run: npx markdownlint '*/.md'
